@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-width initial-scale=1.0">
+    <title>CSS Selectors Masterclass</title>
+    <style>
+        .red {
+            background-color: red;
+        }
+
+        #green {
+            background-color: green;
+        }
+
+        div > p {
+            background-color: cadetblue;
+            color: beige;
+        }
+
+        div p {
+            background-color: blanchedalmond;
+        }
+
+        div > span > h4 {
+            background-color: chartreuse;
+        }
+
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+        a:visited {
+            color: green;
+        }
+
+        a:link {
+            color: aquamarine;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quaerat esse quo provident magnam sit laborum id, perferendis quos nemo dolorem culpa numquam iste quia repellendus impedit fugit ipsam cum porro voluptatibus quisquam aut nihil. Labore quo optio est quisquam enim pariatur saepe quia ipsum.
+    </div>
+
+    <div id="green">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nesciunt. Suscipit sint officiis quae assumenda ipsum quia illo, voluptatem autem rem cum unde illum dignissimos veniam architecto atque asperiores iure?
+    </div>
+
+    <p class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt temporibus repudiandae quis. Corrupti sapiente impedit aperiam architecto dolorum quia non beatae molestiae aliquam?</p>
+
+    <div>
+        <h4>This is a Child Paragraph Tag inside a Div</h4>
+    </div>
+
+    <div>
+        <article>
+            <p>This is Desendent (Div->Article->Paragraph)</p>
+        </article>
+    </div>
+
+    <div>
+        <span>
+            <h4>H4 inside Span inside Div</h4>
+        </span>
+        <article>
+            This is an article inside the same div.
+        </article>
+    </div>
+
+    <div>
+        <h3>Pseudo Selectors</h3>
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.instagram4.com">Instagram</a>
+    </div>
+
+</body>
+
+</html>
