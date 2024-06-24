@@ -2,10 +2,49 @@
 <html lang="en">
 <head>
     <title>Box Models</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background-color: lightgreen;
+        }
+
+        .box1 {
+            color: brown;
+            padding: 10;
+            margin: 25px;
+            border: 1px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+        .box2 {
+            color: purple;
+            padding: 10;
+            margin: 25px;
+            border: 1px solid rgb(191, 16, 16);
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+    </style>
+
 </head>
 
 <body>
-    
+
+    <div class="box box1">
+        This is Box Model 1
+    </div>
+
+    <div class="box box2">
+        This is Box Model 2
+    </div>
+
 </body>
 
 </html>
