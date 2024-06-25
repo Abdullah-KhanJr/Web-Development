@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Specificity & Cascade</title>
+    <style>
+
+        div {
+            color: aquamarine;
+        }
+
+        .red {
+            color: red !important;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div style="color:blueviolet" class="red yellow blue">
+        Division
+    </div>
+</body>
+
+</html>
