@@ -5,6 +5,12 @@
             "name": "http://192.168.100.3:3000/CSS_Specificity_And_Cascade.html",
             "request": "launch",
             "url": "http://192.168.100.3:3000/CSS_Specificity_And_Cascade.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://192.168.100.3:3000/CSS_Sizing_Units.html",
+            "request": "launch",
+            "url": "http://192.168.100.3:3000/CSS_Sizing_Units.html"
         }
     ]
 }
