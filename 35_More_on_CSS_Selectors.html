@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+
+    <style>
+
+        .boxes *{
+            background-color: blueviolet;
+            margin: 4px;
+            padding: 4px;
+            border-radius: 4px;
+            /* display: inline; */
+        }
+
+        [data-color="Red"]  {
+            background-color: red;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="boxes">
+        <div class="box" data-color="Red">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+    </div>
+
+</body>
+
+</html>
