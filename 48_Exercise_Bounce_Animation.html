@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise | Bounce Animation</title>
+
+    <style>
+
+        .container{
+            margin: 30px;
+            border: 2px solid black;
+            height: 80vh;
+            width: 80vw;
+            box-shadow: 10px 10px 15px;
+            position: relative;
+        }
+
+        .circle{
+            /* margin: 180px 90px; */
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100px;
+            width: 100px;
+            border-radius: 70px;
+            background-color: #888888;
+            animation:  BounceX 3s linear infinite, BounceY 1s cubic-bezier(0,-0.03, 0, 0.99) infinite alternate;
+        }
+        
+
+        @keyframes BounceY {
+            from{
+                bottom: 0;
+            } to {
+                bottom: 90%;
+            }
+        }
+
+        @keyframes BounceX {
+            from{
+                left: 0;
+            } to {
+                left: 100%;
+            }
+        }
+
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="circle translate">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
