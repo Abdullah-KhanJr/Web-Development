@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+
+    <style>
+
+        .container{
+            border: 2px solid black;
+            height: 300px;
+            width: 600px;
+        }
+
+        .img1{
+            width: 600px;
+            height: 300px;
+            object-fit: contain;
+            /* filter: blur(1px); */
+            filter: brightness(150%);
+        }
+
+        .img2{
+            width: 600px;
+            height: 300px;
+            object-fit: contain;
+            /* filter: blur(1px); */
+            filter:grayscale(50%);
+        }
+
+        .img3{
+            width: 600px;
+            height: 300px;
+            object-fit: contain;
+            /* filter: blur(1px); */
+            filter: contrast(150%);
+            filter: invert(1);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="container"><img class="img1" src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" alt=""></div>
+
+    <div class="container"><img class="img2" src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" alt=""></div>
+
+    <div class="container"><img class="img3" src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" alt=""></div>
+
+</body>
+</html>
