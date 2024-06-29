@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise | Navbar Using Flexbox</title>
+
+    <style>
+
+
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            background-color: #dcdcdc;
+        }
+
+        .container ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            float: right;
+            
+        }
+
+        .container ul li{
+            padding: 30px;
+            
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            gap: 30px 30px;
+            padding: 100px;
+        }
+
+        .grids{
+            display: grid;
+            border: 2px solid green;  
+            height: 150px;
+            width: 300px;  
+            justify-content: center;
+            align-items: center;  
+            border-radius: 20px; 
+            background-color: #dcdcdc;
+            font-weight: bolder;
+            font-size: 20px;
+            border: none;
+
+        }
+
+        a {
+            background-color: rgb(54, 169, 54);
+            border: none;
+            border-radius: 8px;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 16px;
+            color: white;
+            text-decoration: none;
+            
+        }
+
+        @media only screen and (max-width: 650px) {
+            .grid {
+                /* display: grid; */
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <img style="padding: 10px 90px" height="60px" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+        <ul>
+            <li>Product</li>
+            <li>Prices</li>
+            <li>Resources</li>
+            <li>About Us</li>
+            <li style="padding-right: 150px;">Security & Compiance</li>
+        </ul>
+    </div>
+
+    <div class="grid">
+        <div class="grids">
+            English
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+            
+        </div>
+        <div class="grids">
+            Deutsch
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+        </div>
+        <div class="grids">
+            Italiano
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+        </div>
+        <div class="grids">
+            Espanol
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+        </div>
+        <div class="grids">
+            Fracais
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+        </div>
+        <div class="grids">
+            Portuguese
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+        </div>
+        <div class="grids">
+            Japanese
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+        </div>
+        <div class="grids">
+            Korean
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+        </div>
+        <div class="grids">
+            Chinese
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+        </div>
+        <div class="grids">
+            Traditional Chinese
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*6816i*_ga*NTI0NzM4NjU3LjE3MTk2ODY1NzA.*_ga_QNXHVTPWNS*MTcxOTY4NjU2OS4xLjEuMTcxOTY4OTI2Ni42MC4wLjA.">Download 64-bit</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
