@@ -1,6 +1,6 @@
 console.log("Exercise Calculate Factorial")
 
-let num = 6
+let num = 0
 
 let fact = 1;
 
