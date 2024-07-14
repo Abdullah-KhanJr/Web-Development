@@ -27,4 +27,4 @@ function createCard (title, ChannelName, views, monthsOld, duration, thumbnail) 
     document.querySelector(".container").innerHTML = html;
 }
 
-createCard ("Exrecise | Dynamic Website Builder", "CodeWithHarry", 7540000, 7, "51:22", "https://i.ytimg.com/vi/KtL-SQ20Q0s/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBY2BzrvQvf05RX_uINJMCgcuTKhQ")
+createCard ("Exrecise | Dynamic Website Builder", "CodeWithHarry", 754000, 7, "51:22", "https://i.ytimg.com/vi/KtL-SQ20Q0s/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBY2BzrvQvf05RX_uINJMCgcuTKhQ")
