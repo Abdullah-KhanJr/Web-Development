@@ -1,0 +1,19 @@
+*{
+    background: rgb(188, 216, 226);
+}
+
+table {
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+table, th, td {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}

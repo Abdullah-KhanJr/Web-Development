@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "slugify": "^1.6.6"
+  },
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "spotify clone",
+  "main": "54_JS_Intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spotify",
+    "music"
+  ],
+  "author": "JunioR",
+  "license": "ISC"
+}
